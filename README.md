@@ -1,12 +1,15 @@
-Steps to run:
-1) check out the code to your machine.
-2) go to the project root. 
-3) Run sbt dist.
-	a) This will create a distribution under target folder of PersistedExample folder. 
-4) go to PersistedExample/target/dist/bin folder.
-5) Run '''start PersistenceExampleKernel'''
-
+<h1> Steps to run:</h1>
+<ul>
+<li>1) check out the code to your machine.</li>
+<li>2) go to the project root. </li>
+<li>3) Run sbt dist.</li>
+	<li>a) This will create a distribution under target folder of PersistedExample folder. </li>
+<li>4) go to PersistedExample/target/dist/bin folder.</li>
+<li>5) Run <b>start PersistenceExampleKernel</b></li>
+<ul>
+<h2>	
 Disclaimer
+</h2>
 This example is not a demonstration how to use Akka persistence or Persistence Channel.
 On the other hand this example was created to show that the journal space increases over
 time even though the Confirmable persistence message is confirmed immidiately. 
