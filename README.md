@@ -3,7 +3,9 @@
 <li>1) check out the code to your machine.</li>
 <li>2) go to the project root. </li>
 <li>3) Run sbt dist.</li>
+	<ul>
 	<li>a) This will create a distribution under target folder of PersistedExample folder. </li>
+	</ul>
 <li>4) go to PersistedExample/target/dist/bin folder.</li>
 <li>5) Run <b>start PersistenceExampleKernel</b></li>
 <ul>
