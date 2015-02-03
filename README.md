@@ -1,5 +1,5 @@
 ##Disclaimer
-This example is **NOT** a demonstration how to use [Akka Persistence](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html) or [Persistent Channels](http://doc.akka.io/docs/akka/2.3.0/scala/persistence.html#Persistent_channels).
+This example is **NOT** a demonstration of how to use [Akka Persistence](http://doc.akka.io/docs/akka/snapshot/scala/persistence.html) or [Persistent Channels](http://doc.akka.io/docs/akka/2.3.0/scala/persistence.html#Persistent_channels).
 This example was created to show that the journal space increases over time even though the Confirmable persistence message is confirmed immediately. 
 One would expect that the journal disk space would be maintained as any message that is persisted is getting confirmed (hence deleted asynchronously).
 
