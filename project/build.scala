@@ -5,14 +5,14 @@ import akka.sbt.AkkaKernelPlugin
 import akka.sbt.AkkaKernelPlugin.{ Dist, distSettings, distJvmOptions }
 
 object versions {
-    val akkaVersion = "2.3.7"
+    val akkaVersion = "2.3.9"
 }
 
 object PersistedBuild extends Build {
   lazy val defaultSettings = Defaults.defaultSettings ++ Seq(
     organization := "exactEarth",
     version      := "1.0",
-    scalaVersion := "2.11.4",
+    scalaVersion := "2.11.5",
     fork         := true,
     //parallelExecution in Test := false,
     scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked"),
