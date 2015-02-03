@@ -1,3 +1,9 @@
+This repository contains a piece of code that reproduces the bug described here:
+
+* [Mailing List](https://groups.google.com/forum/#!searchin/akka-user/akka-persistentchannel-does-not-delete-message-from-journal-upon-confirm/akka-user/_d9gpIJyKe0/B6Ie_axaFQMJ)
+* [Assembla](https://www.assembla.com/spaces/akka/tickets/3962)
+* [GitHub](https://github.com/akka/akka/issues/13962)
+
 <h1> Steps to run:</h1>
 <ul>
 <li>check out the code to your machine.</li>
